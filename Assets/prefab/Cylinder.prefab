@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 749270716026962805}
   - component: {fileID: 7791625119711305352}
   - component: {fileID: 2209834008577697945}
+  - component: {fileID: 1996192300}
   m_Layer: 0
   m_Name: Cylinder
   m_TagString: Untagged
@@ -59,7 +60,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3c42b56f5051e394c893baaa765a39fd, type: 2}
+  - {fileID: 2100000, guid: 21c07e3c5d3dc854f8e11f1395428bea, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -94,3 +95,19 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
+--- !u!114 &1996192300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343398082119748268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1262fc618da817d4a914723e2ebb7616, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 7911090117573930070, guid: 2d94054e11674784cb4d69e9dc497645,
+    type: 3}
+  spawnRateMin: 0.5
+  spawnRateMax: 3

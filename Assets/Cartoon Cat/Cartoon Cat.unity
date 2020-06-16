@@ -206,13 +206,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474256402}
-  m_LocalRotation: {x: -0.003493986, y: 0.95882654, z: -0.011803181, w: -0.28372553}
-  m_LocalPosition: {x: 0.8342639, y: 0.5142588, z: 1.4845366}
+  m_LocalRotation: {x: 0.112234764, y: 0.12968712, z: -0.014775982, w: 0.9850718}
+  m_LocalPosition: {x: -2.9, y: 5.2, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 13, y: 15, z: 0}
 --- !u!1 &619190118
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,6 +922,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!114 &1862368433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1862368429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f11e57b29f7808408b329caf8491c2e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerRigidbody: {fileID: 1862368430}
+  speed: 8
 --- !u!136 &1862368434
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -951,7 +965,7 @@ PrefabInstance:
     - target: {fileID: 5181351280215903012, guid: 34813c7f76cc89d40875a67e02ef7428,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: -7.92
       objectReference: {fileID: 0}
     - target: {fileID: 5181351280215903012, guid: 34813c7f76cc89d40875a67e02ef7428,
         type: 3}
@@ -1003,11 +1017,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7791625119711305352, guid: 34813c7f76cc89d40875a67e02ef7428,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: f5baeb1c547d7b741bca7034c719030f, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 34813c7f76cc89d40875a67e02ef7428, type: 3}
 --- !u!1001 &7791144959947273385
@@ -1017,11 +1026,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4994775269717885303, guid: 2d94054e11674784cb4d69e9dc497645,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 21c07e3c5d3dc854f8e11f1395428bea, type: 2}
     - target: {fileID: 7014893576611250353, guid: 2d94054e11674784cb4d69e9dc497645,
         type: 3}
       propertyPath: m_LocalPosition.x

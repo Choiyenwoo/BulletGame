@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class playercontrol : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
     public Rigidbody playerRigidbody;
-    public float spped = 8f;
+    public float speed = 8f;
 
     void Start()
     {
