@@ -30,7 +30,7 @@ public class GameManager : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.R))
             {     //게임 오버 상태에서 R키를 누른 경우
-                SceneManager.LoadScene("SampleScene");  // SampleScene 로드
+                SceneManager.LoadScene("Cartoon Cat");  // SampleScene 로드
                 //씬 이름이 Cartoon Cat이면 “Cartoon Cat”을 쓰세요.
             }
         }
